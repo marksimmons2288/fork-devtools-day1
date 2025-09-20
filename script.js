@@ -56,12 +56,12 @@ console.log('importantData');
 tryToCallFunction();
 
 // Error 13:
-let user = { namee: 'Alice' };
+let user = { name: 'Alice' };
 console.log(user.name)
 
 // Error 14: 
 let someNumber = 123;
-console.log(someNumber.toUpperCase()); 
+console.log(textToUpper.toUpperCase()); 
 
 // Error 15: 
 //  There are 3 types of variables
@@ -101,7 +101,6 @@ console.log(x);
 x = 5;
 
 // Error 20:
-let myString = 'Hello';
-myString.property = 'World';
-console.log(myString.property); 
+let myString = 'Hello World';
+console.log(myString); 
 
